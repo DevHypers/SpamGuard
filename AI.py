@@ -7,7 +7,7 @@ def CheckSpam(message):
     # This function will pass your text to the machine learning model
     # and return the top result with the highest confidence
     def classify(text):
-        key = "da224910-2619-11eb-9cb0-975fa24d2c34d7f989b7-10ad-41ad-a173-80a6deb84675"
+        key = str(open("AI_API_KEY.txt", "r", encoding="utf-8").readline())
         url = "https://machinelearningforkids.co.uk/api/scratch/" + key + "/classify"
 
         response = requests.get(url, params={"data": text})
