@@ -9,7 +9,7 @@ from AI import CheckSpam
 
 client = discord.Client()
 
-token = str(open("token.txt", "r", encoding="utf-8").readline())
+token = os.environ["DISCORD_TOKEN"]
 
 prefix = "!"
 AtoZ = []
