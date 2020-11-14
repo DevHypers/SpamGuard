@@ -6,11 +6,6 @@
 AI_API_KEY.txt
 token.txt
 
-# Heroku
-requirements.txt
-runtime.txt
-Procfile
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
