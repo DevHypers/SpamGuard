@@ -3,8 +3,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,windows
 
 ### Token & API_KEY ###
-AI_API_KEY.txt
-token.txt
+/AI_API_KEY.txt
+/token.txt
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
